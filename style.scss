@@ -5,8 +5,13 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-h1, h2 {
-    color: #000000;
+h1 {
+    color: goldenrod;
+    font-size: clamp(1.5rem, 2vw + 1rem, 4rem);
+}
+
+h2 {
+    color: #222222;
 }
 
 h3,
@@ -90,7 +95,7 @@ header {
 .banner {
     width: 100%;
     padding-bottom: 50px;
-
+    position: relative;
     img {
         width: 100%;
     }
@@ -112,7 +117,7 @@ header {
     }
 
     .info-barberia {
-        padding: 20px 0px;
+        padding: 20px 0px 40px;
 
         p {
             text-align: center;
@@ -174,6 +179,15 @@ header {
             }
         }
     }
+}
 
-
+footer {
+    background-image: url('/assets/img/bg.webp');
+    padding: 20px 0;
+    text-align: center;
+    .copryright {
+        color: #ffffff;
+        font-size: 13px;
+        margin: 20px;
+    }
 }
